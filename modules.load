@@ -31,8 +31,7 @@ snd_event_dlkm.ko
 adsp_loader_dlkm.ko
 nfc_i2c.ko
 native_dlkm.ko
-qca_cld3_wlan.ko
-qca_cld3_wlan.ko
+wlan.ko
 rmnet_core.ko
 rmnet_ctl.ko
 rmnet_offload.ko
@@ -48,8 +47,6 @@ watchdogtest.ko
 qpnp_adaptive_charge.ko
 fpsensor_spi_tee.ko
 fpc1020_mmi.ko
-sensors_class.ko
-mmi_relay.ko
 sx937x_sar.ko
 mmi_sys_temp.ko
 cw2217b_fg_mmi.ko
@@ -65,5 +62,4 @@ mmi_discrete_charger_class.ko
 mmi_discrete_charger.ko
 ldo_vibrator_mmi.ko
 nova_0flash_mmi.ko
-focaltech_0flash_v2_mmi.ko
 cci_intf.ko
