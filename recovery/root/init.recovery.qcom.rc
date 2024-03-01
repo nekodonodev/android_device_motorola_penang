@@ -43,8 +43,6 @@ on early-init
     insmod /lib/modules/tcpc_rt1711h.ko
     insmod /lib/modules/rt_pd_manager.ko
     
-    insmod /lib/modules/moto_f_usbnet.ko
-    
     # Force SELinux permissive
     exec u:r:init:s0 root root -- /system/bin/setenforce 0
 
@@ -55,7 +53,8 @@ on fs
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
 
-    exec u:r:init:s0 root root -- /init.recovery.module.sh 1
+    chmod 744 /load_ts_firmware.sh
+    start load_ts_firmware
 
     setprop sys.usb.config adb
 
@@ -68,3 +67,10 @@ on property:service.adb.root=1
     write /sys/class/android_usb/android0/enable 0
     restart adbd
     write /sys/class/android_usb/android0/enable 1
+
+service load_ts_firmware /load_ts_firmware.sh
+    oneshot
+    user root
+    group root
+    disabled
+    seclabel u:r:recovery:s0

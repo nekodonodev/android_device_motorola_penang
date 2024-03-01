@@ -32,5 +32,9 @@ write_headers
 
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
 
+# Recovery
+echo 'PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,vendor/motorola/penang/proprietary/vendor/firmware,$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware)' >> "${BOARDMK}"
+
 # Finish
 write_footers
