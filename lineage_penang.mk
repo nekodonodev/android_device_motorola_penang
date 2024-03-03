@@ -14,6 +14,7 @@ $(call inherit-product, device/motorola/penang/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_penang
 PRODUCT_DEVICE := penang
 PRODUCT_MANUFACTURER := motorola
@@ -27,3 +28,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="penang_g-user 11 T1TPS33.1-73-2-2 f8b57 release-keys"
 
 BUILD_FINGERPRINT := motorola/penang_g/penang:11/T1TPS33.1-73-2-2/f8b57:user/release-keys
+
+# Gapps
+TARGET_USES_MINI_GAPPS := true
