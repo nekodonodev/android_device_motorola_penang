@@ -117,8 +117,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/unavail.android.software.nfc.beam.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/unavail.android.software.nfc.beam.xml
 
-# Gapps
-$(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
-
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/penang/penang-vendor.mk)
