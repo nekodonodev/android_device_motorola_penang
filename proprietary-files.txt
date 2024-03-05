@@ -379,13 +379,6 @@ vendor/etc/qdcm_calib_data_nt36672e_60_Hz_fhd_plus_video_mode_panel_without_DSC.
 vendor/etc/qdcm_calib_data_nt36672e_fhd_plus_120Hz_Video_panel.xml
 vendor/etc/qdcm_calib_data_nt36672e_fhd_plus_144Hz_video_panel.xml
 
-# Embedded Secure Element power manager
-vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc
-vendor/bin/hw/vendor.qti.esepowermanager@1.1-service
-vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
-vendor/lib64/vendor.qti.esepowermanager@1.0.so
-vendor/lib64/vendor.qti.esepowermanager@1.1.so
-
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-fpc
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-chipone
@@ -437,14 +430,6 @@ vendor/etc/vhw.xml
 
 # RIL
 -system_ext/framework/qti-telephony-common.jar
-
-# Secure Element
-vendor/etc/init/vendor.qti.secure_element@1.2-service.rc
-vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
-vendor/bin/hw/vendor.qti.secure_element@1.2-service
-vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
-vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
-vendor/lib64/android.hardware.secure_element@1.0-impl.so
 
 # Sensors
 vendor/lib64/sensors.moto.so
