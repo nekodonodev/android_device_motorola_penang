@@ -417,6 +417,8 @@ system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
 # NFC
 vendor/etc/libnfc-nci.conf
+vendor/etc/libnfc-nci_SN100.conf
+vendor/etc/libnfc-mtp-SN100.conf
 vendor/lib/libsn100u_fw.so
 vendor/lib64/libsn100u_fw.so
 
