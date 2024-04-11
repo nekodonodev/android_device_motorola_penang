@@ -422,6 +422,45 @@ vendor/etc/libnfc-mtp-SN100.conf
 vendor/lib/libsn100u_fw.so
 vendor/lib64/libsn100u_fw.so
 
+# NFC (NQ) - from veux_jp
+-system_ext/app/NQNfcNci/NQNfcNci.apk;OVERRIDES=NfcNci|fd0cc2748a4d06ae14190949012b482529d916d1
+-system_ext/framework/com.nxp.nfc.nq.jar|9e529aae05253c7d8e3983b784642df0c738fa7c
+system_ext/etc/permissions/com.nxp.nfc.nq.xml|76c7e4b4ffd88f3b37cb6996091ec9a0aecf2784
+system_ext/lib64/libsn100nfc-nci.so|39bc0351a3053dc7f160216af55a6f6d61e01eb0
+system_ext/lib64/libsn100nfc_nci_jni.so|6414cb1d328509c50ce776c444b67cba858bfcf8
+system_ext/lib64/libsn100nfc_nci_jni.so|6414cb1d328509c50ce776c444b67cba858bfcf8
+system_ext/lib64/vendor.nxp.hardware.nfc@1.0.so|61c06ea3b33794b7759b58c4e3781f13e871db37
+system_ext/lib64/vendor.nxp.hardware.nfc@1.1.so|6881ce3249cb12097f74d6a8fb2c88a205edcd98
+system_ext/lib64/vendor.nxp.hardware.nfc@2.0.so|87f22d89120848eaae5ad334a14751b24ac418de
+vendor/lib64/jcos_nq_client.so|22db02f4bcc6e1932ca2a29bc7ee837889e07b02
+vendor/lib64/ls_nq_client.so|d8942d3dbd23e6845aac517f8d739848593b87c7
+vendor/lib64/se_nq_extn_client.so|df7a377b826b6ed2a68059504962ac517939d4d1
+vendor/lib64/vendor.nxp.nxpnfc@1.0.so|9cc66eb872dfbdb8366dc4d5ca48275772089a21
+vendor/lib64/vendor.nxp.nxpese@1.0.so|c41626e84d6999cee505da2eb35dd2ea1448552a
+vendor/lib64/vendor.nxp.hardware.nfc@2.0.so|ceaa4ffe9902a9461c323b0c571635d6b240e857
+vendor/lib64/nfc_nci.nqx.default.hw.so|d66a1b8ce3be5bfd81ef81563f4ce3cd1c1eb0b2
+vendor/bin/hw/vendor.nxp.hardware.nfc@2.0-service|7a2704a6fcdd7e795a922fc793089bbceea6e86a
+vendor/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc|ef06783d034eb2db2ceded7f2333f189feb42afb
+lib64/libstatslog_nfc.so|aad435940bd736681352973076707827222b28f5
+lib64/android.hardware.nfc@1.0.so|129312cdd18c7f8a830821e5ed40f0c19d4c54e5
+lib64/android.hardware.nfc@1.1.so|0fb981a961e0c52750d2bd372ef1923409184567
+lib64/android.hardware.nfc@1.2.so|b8303c0d6f53156b01dc8579a71bae78ee0c5f4b
+lib64/android.hardware.nfc-V1-ndk.so|b57e4645fee619dc1dbc39d075ceaedd25fea3b0
+lib64/vendor.nxp.nxpnfc_aidl-V1-ndk.so|e2a1c6e048538337250e53867fd916544c811c8d
+
+# Secure Element
+vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc
+vendor/bin/hw/vendor.qti.esepowermanager@1.1-service
+vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
+vendor/lib64/vendor.qti.esepowermanager@1.0.so
+vendor/lib64/vendor.qti.esepowermanager@1.1.so
+vendor/etc/init/vendor.qti.secure_element@1.2-service.rc
+vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
+vendor/bin/hw/vendor.qti.secure_element@1.2-service
+vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
+vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
+vendor/lib64/android.hardware.secure_element@1.0-impl.so
+
 # Felica
 product/etc/felica/common.cfg
 product/etc/felica/mfm.cfg
