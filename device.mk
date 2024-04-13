@@ -41,8 +41,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     FrameworksResPenangSB \
     SettingsProviderResPenangSB \
-    RegulatoryInfoOverlayPenangSB \
-    MatLog
+    RegulatoryInfoOverlayPenangSB
 
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
