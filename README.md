@@ -1,7 +1,7 @@
-Device configuration for Motorola moto g53j / g53y 5G
+Device configuration for Motorola moto g53 family
 =========================================
 
-The Motorola moto g53j / g53y 5G (codenamed _"penang"_) is a midrange smartphone from Motorola.
+The Motorola moto g53 (Global) and g53j / g53y (JP) (codenamed _"penang"_) is a midrange smartphone from Motorola.
 
 It was announced and released on June 2023.
 
@@ -19,7 +19,7 @@ Battery | Non-removable Li-Po 5000 mAh battery
 Display | 1080 x 2400 pixels, 20:9 ratio, 6.43 inches, AMOLED(~411 ppi density)
 Back Camera  | 50 MP, f/1.8 (main) + Quad Pixel Technology 1.28μm + 2 MP, f/2.4 (macro)
 Front Camera  | 8 MP, f/2.0
-Additional features  | IP52 grade water/dust resistance, FeliCa, eSIM
+Additional features  | IP52 grade water/dust resistance, FeliCa (JP only), eSIM
 
 ## Device picture
 ![moto g53j / g53y 5G](https://motorolajp.vtexassets.com/arquivos/ids/155787-800-auto?width=800&height=auto&aspect=true "moto g53j / g53y 5G")
