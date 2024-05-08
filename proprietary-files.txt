@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from penang_g-user 13 T1TPS33.1-73-2-2 f8b57-723bee5 release-keys.
+# All unpinned blobs below are extracted from penang_g-user 14 U1TPS34M.29-83-1 295da release-keys.
 
 # ACDB Data
 vendor/etc/acdbdata/nn_ns_models/candidate__2.7.1.31__3.0.0__eai_1.10_enpu1.pmd
@@ -375,9 +375,6 @@ vendor/lib64/camera/com.qti.tuned.mot_penang_s5kjn1.bin
 # Display calibration data
 vendor/etc/qdcm_calib_data_mipi_mot_vid_csot_hd_653_720p_120.xml
 vendor/etc/qdcm_calib_data_mipi_mot_vid_djn_hd_653_720p_120.xml
-vendor/etc/qdcm_calib_data_nt36672e_60_Hz_fhd_plus_video_mode_panel_without_DSC.xml
-vendor/etc/qdcm_calib_data_nt36672e_fhd_plus_120Hz_Video_panel.xml
-vendor/etc/qdcm_calib_data_nt36672e_fhd_plus_144Hz_video_panel.xml
 
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-fpc
@@ -392,8 +389,8 @@ vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 vendor/lib64/libcdfw_remote_api.so
 
 # HotwordEnrollment
--product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
--product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
