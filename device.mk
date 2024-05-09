@@ -111,6 +111,10 @@ PRODUCT_PACKAGES += \
     SecureElement \
     Tag
 
+PRODUCT_PACKAGES += \
+    vendor.nxp.nxpnfc@2.0 \
+    vendor.nxp.nxpese@1.0
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf
 
